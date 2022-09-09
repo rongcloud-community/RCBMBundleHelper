@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D7DE393D28CB36F600D56691 /* RCBMBundleHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D7DE393B28CB36F600D56691 /* RCBMBundleHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7DE393E28CB36F600D56691 /* RCBMBundleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DE393C28CB36F600D56691 /* RCBMBundleHelper.m */; };
+		D7DE396A28CB3EFE00D56691 /* RCBMBundleHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DE396828CB3EFE00D56691 /* RCBMBundleHelper.m */; };
+		D7DE396B28CB3EFE00D56691 /* RCBMBundleHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D7DE396928CB3EFE00D56691 /* RCBMBundleHelper.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D7DE392B28CB365E00D56691 /* RCBMBundleHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RCBMBundleHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7DE393B28CB36F600D56691 /* RCBMBundleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCBMBundleHelper.h; path = ../../../RCBMBundleHelper/Classes/RCBMBundleHelper.h; sourceTree = "<group>"; };
-		D7DE393C28CB36F600D56691 /* RCBMBundleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCBMBundleHelper.m; path = ../../../RCBMBundleHelper/Classes/RCBMBundleHelper.m; sourceTree = "<group>"; };
+		D7DE395D28CB3E2E00D56691 /* RCBMBundleHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RCBMBundleHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7DE396828CB3EFE00D56691 /* RCBMBundleHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCBMBundleHelper.m; path = ../../../RCBMBundleHelper/Classes/RCBMBundleHelper.m; sourceTree = "<group>"; };
+		D7DE396928CB3EFE00D56691 /* RCBMBundleHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCBMBundleHelper.h; path = ../../../RCBMBundleHelper/Classes/RCBMBundleHelper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D7DE392828CB365E00D56691 /* Frameworks */ = {
+		D7DE395A28CB3E2E00D56691 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -28,53 +28,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D7DE392128CB365E00D56691 = {
+		D7DE395328CB3E2E00D56691 = {
 			isa = PBXGroup;
 			children = (
-				D7DE392D28CB365E00D56691 /* RCBMBundleHelper */,
-				D7DE392C28CB365E00D56691 /* Products */,
+				D7DE395F28CB3E2E00D56691 /* RCBMBundleHelper */,
+				D7DE395E28CB3E2E00D56691 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D7DE392C28CB365E00D56691 /* Products */ = {
+		D7DE395E28CB3E2E00D56691 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D7DE392B28CB365E00D56691 /* RCBMBundleHelper.framework */,
+				D7DE395D28CB3E2E00D56691 /* RCBMBundleHelper.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D7DE392D28CB365E00D56691 /* RCBMBundleHelper */ = {
+		D7DE395F28CB3E2E00D56691 /* RCBMBundleHelper */ = {
 			isa = PBXGroup;
 			children = (
-				D7DE393B28CB36F600D56691 /* RCBMBundleHelper.h */,
-				D7DE393C28CB36F600D56691 /* RCBMBundleHelper.m */,
+				D7DE396728CB3ED500D56691 /* class */,
 			);
 			path = RCBMBundleHelper;
+			sourceTree = "<group>";
+		};
+		D7DE396728CB3ED500D56691 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				D7DE396928CB3EFE00D56691 /* RCBMBundleHelper.h */,
+				D7DE396828CB3EFE00D56691 /* RCBMBundleHelper.m */,
+			);
+			name = class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D7DE392628CB365E00D56691 /* Headers */ = {
+		D7DE395828CB3E2E00D56691 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7DE393D28CB36F600D56691 /* RCBMBundleHelper.h in Headers */,
+				D7DE396B28CB3EFE00D56691 /* RCBMBundleHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D7DE392A28CB365E00D56691 /* RCBMBundleHelper */ = {
+		D7DE395C28CB3E2E00D56691 /* RCBMBundleHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7DE393228CB365E00D56691 /* Build configuration list for PBXNativeTarget "RCBMBundleHelper" */;
+			buildConfigurationList = D7DE396428CB3E2E00D56691 /* Build configuration list for PBXNativeTarget "RCBMBundleHelper" */;
 			buildPhases = (
-				D7DE392628CB365E00D56691 /* Headers */,
-				D7DE392728CB365E00D56691 /* Sources */,
-				D7DE392828CB365E00D56691 /* Frameworks */,
-				D7DE392928CB365E00D56691 /* Resources */,
+				D7DE395828CB3E2E00D56691 /* Headers */,
+				D7DE395928CB3E2E00D56691 /* Sources */,
+				D7DE395A28CB3E2E00D56691 /* Frameworks */,
+				D7DE395B28CB3E2E00D56691 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -82,24 +90,24 @@
 			);
 			name = RCBMBundleHelper;
 			productName = RCBMBundleHelper;
-			productReference = D7DE392B28CB365E00D56691 /* RCBMBundleHelper.framework */;
+			productReference = D7DE395D28CB3E2E00D56691 /* RCBMBundleHelper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D7DE392228CB365E00D56691 /* Project object */ = {
+		D7DE395428CB3E2E00D56691 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					D7DE392A28CB365E00D56691 = {
+					D7DE395C28CB3E2E00D56691 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = D7DE392528CB365E00D56691 /* Build configuration list for PBXProject "RCBMBundleHelper" */;
+			buildConfigurationList = D7DE395728CB3E2E00D56691 /* Build configuration list for PBXProject "RCBMBundleHelper" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -107,18 +115,18 @@
 				en,
 				Base,
 			);
-			mainGroup = D7DE392128CB365E00D56691;
-			productRefGroup = D7DE392C28CB365E00D56691 /* Products */;
+			mainGroup = D7DE395328CB3E2E00D56691;
+			productRefGroup = D7DE395E28CB3E2E00D56691 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D7DE392A28CB365E00D56691 /* RCBMBundleHelper */,
+				D7DE395C28CB3E2E00D56691 /* RCBMBundleHelper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D7DE392928CB365E00D56691 /* Resources */ = {
+		D7DE395B28CB3E2E00D56691 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,18 +136,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D7DE392728CB365E00D56691 /* Sources */ = {
+		D7DE395928CB3E2E00D56691 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7DE393E28CB36F600D56691 /* RCBMBundleHelper.m in Sources */,
+				D7DE396A28CB3EFE00D56691 /* RCBMBundleHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D7DE393028CB365E00D56691 /* Debug */ = {
+		D7DE396228CB3E2E00D56691 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -201,7 +209,7 @@
 			};
 			name = Debug;
 		};
-		D7DE393128CB365E00D56691 /* Release */ = {
+		D7DE396328CB3E2E00D56691 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,7 +265,7 @@
 			};
 			name = Release;
 		};
-		D7DE393328CB365E00D56691 /* Debug */ = {
+		D7DE396528CB3E2E00D56691 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -267,6 +275,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -287,7 +297,7 @@
 			};
 			name = Debug;
 		};
-		D7DE393428CB365E00D56691 /* Release */ = {
+		D7DE396628CB3E2E00D56691 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +307,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -320,25 +332,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D7DE392528CB365E00D56691 /* Build configuration list for PBXProject "RCBMBundleHelper" */ = {
+		D7DE395728CB3E2E00D56691 /* Build configuration list for PBXProject "RCBMBundleHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7DE393028CB365E00D56691 /* Debug */,
-				D7DE393128CB365E00D56691 /* Release */,
+				D7DE396228CB3E2E00D56691 /* Debug */,
+				D7DE396328CB3E2E00D56691 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7DE393228CB365E00D56691 /* Build configuration list for PBXNativeTarget "RCBMBundleHelper" */ = {
+		D7DE396428CB3E2E00D56691 /* Build configuration list for PBXNativeTarget "RCBMBundleHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7DE393328CB365E00D56691 /* Debug */,
-				D7DE393428CB365E00D56691 /* Release */,
+				D7DE396528CB3E2E00D56691 /* Debug */,
+				D7DE396628CB3E2E00D56691 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D7DE392228CB365E00D56691 /* Project object */;
+	rootObject = D7DE395428CB3E2E00D56691 /* Project object */;
 }

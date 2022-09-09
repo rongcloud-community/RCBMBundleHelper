@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3BCDC5BF411A45782DC2CE94 /* Pods_RCBMBundleHelper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDABF470646872B0611C14E2 /* Pods_RCBMBundleHelper_Tests.framework */; };
+		51DED0CA8CA0ABA5EC371172 /* Pods_RCBMBundleHelper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65DFB2CA3CF05EA9CFB329E3 /* Pods_RCBMBundleHelper_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +22,8 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		77DCE04B2BA0DEED62E71F5F /* Pods_RCBMBundleHelper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F160E3218DAA592984AFBFE /* Pods_RCBMBundleHelper_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		AEFCF534C3DEA85491CBAE3F /* Pods_RCBMBundleHelper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 346CFED2D361443C037A3AF2 /* Pods_RCBMBundleHelper_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,8 @@
 /* Begin PBXFileReference section */
 		0FA3A96D93AA6972AC1F69DD /* Pods-RCBMBundleHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCBMBundleHelper_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RCBMBundleHelper_Tests/Pods-RCBMBundleHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		12186C084A20009EE48B812E /* Pods-RCBMBundleHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCBMBundleHelper_Tests.release.xcconfig"; path = "Target Support Files/Pods-RCBMBundleHelper_Tests/Pods-RCBMBundleHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		12793D2A7D7DE6DBE9809460 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		12793D2A7D7DE6DBE9809460 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		346CFED2D361443C037A3AF2 /* Pods_RCBMBundleHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCBMBundleHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8B59E3B9BD559C365BA63B /* Pods-RCBMBundleHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCBMBundleHelper_Example.release.xcconfig"; path = "Target Support Files/Pods-RCBMBundleHelper_Example/Pods-RCBMBundleHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RCBMBundleHelper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCBMBundleHelper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,13 +61,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6F160E3218DAA592984AFBFE /* Pods_RCBMBundleHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCBMBundleHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DFB2CA3CF05EA9CFB329E3 /* Pods_RCBMBundleHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCBMBundleHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7995FB5C83AC0379E39A33F7 /* RCBMBundleHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RCBMBundleHelper.podspec; path = ../RCBMBundleHelper.podspec; sourceTree = "<group>"; };
+		7995FB5C83AC0379E39A33F7 /* RCBMBundleHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RCBMBundleHelper.podspec; path = ../RCBMBundleHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCE73DF70FD71935E3FD26F7 /* Pods-RCBMBundleHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCBMBundleHelper_Example.debug.xcconfig"; path = "Target Support Files/Pods-RCBMBundleHelper_Example/Pods-RCBMBundleHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BDABF470646872B0611C14E2 /* Pods_RCBMBundleHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RCBMBundleHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C484DA20676699C13E4187CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C484DA20676699C13E4187CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				77DCE04B2BA0DEED62E71F5F /* Pods_RCBMBundleHelper_Example.framework in Frameworks */,
+				AEFCF534C3DEA85491CBAE3F /* Pods_RCBMBundleHelper_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				3BCDC5BF411A45782DC2CE94 /* Pods_RCBMBundleHelper_Tests.framework in Frameworks */,
+				51DED0CA8CA0ABA5EC371172 /* Pods_RCBMBundleHelper_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				6F160E3218DAA592984AFBFE /* Pods_RCBMBundleHelper_Example.framework */,
-				BDABF470646872B0611C14E2 /* Pods_RCBMBundleHelper_Tests.framework */,
+				346CFED2D361443C037A3AF2 /* Pods_RCBMBundleHelper_Example.framework */,
+				65DFB2CA3CF05EA9CFB329E3 /* Pods_RCBMBundleHelper_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,7 +193,6 @@
 				0FA3A96D93AA6972AC1F69DD /* Pods-RCBMBundleHelper_Tests.debug.xcconfig */,
 				12186C084A20009EE48B812E /* Pods-RCBMBundleHelper_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				50450AADBE80F687FC597416 /* [CP] Embed Pods Frameworks */,
+				2D170C53A11E314C131E78BB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = gongjiahao;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 9CVMN4UZK4;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,7 +298,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		50450AADBE80F687FC597416 /* [CP] Embed Pods Frameworks */ = {
+		2D170C53A11E314C131E78BB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -494,9 +497,11 @@
 			baseConfigurationReference = BCE73DF70FD71935E3FD26F7 /* Pods-RCBMBundleHelper_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9CVMN4UZK4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RCBMBundleHelper/RCBMBundleHelper-Prefix.pch";
 				INFOPLIST_FILE = "RCBMBundleHelper/RCBMBundleHelper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,9 +515,11 @@
 			baseConfigurationReference = 3E8B59E3B9BD559C365BA63B /* Pods-RCBMBundleHelper_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9CVMN4UZK4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RCBMBundleHelper/RCBMBundleHelper-Prefix.pch";
 				INFOPLIST_FILE = "RCBMBundleHelper/RCBMBundleHelper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

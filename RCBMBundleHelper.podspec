@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RCBMBundleHelper'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of RCBMBundleHelper.'
+  s.version          = '1.0.0'
+  s.summary          = 'RCBMBundleHelper.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,23 +18,24 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+RCBM Pod资源文件Bundle统一读取
                        DESC
 
-  s.homepage         = 'https://github.com/gongjiahao/RCBMBundleHelper'
+  s.homepage         = 'https://github.com/rongcloud-community/RCBMBundleHelper'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'gongjiahao' => 'gongjiahao@rongcloud.cn' }
-  s.source           = { :git => 'https://github.com/gongjiahao/RCBMBundleHelper.git', :tag => s.version.to_s }
+  s.author           = { 'asunrong' => 'ashinecitic@gmail.com' }
+  s.source           = { :git => 'https://github.com/rongcloud-community/RCBMBundleHelper.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'RCBMBundleHelper/Classes/**/*'
+  s.public_header_files = 'RCBMBundleHelper/Classes/**/*.h'
   
-  # s.resource_bundles = {
-  #   'RCBMBundleHelper' => ['RCBMBundleHelper/Assets/*.png']
-  # }
+#   s.resource_bundles = {
+#     'RCBMBundleHelper' => ['RCBMBundleHelper/Assets/*']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

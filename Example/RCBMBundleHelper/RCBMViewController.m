@@ -7,6 +7,7 @@
 //
 
 #import "RCBMViewController.h"
+#import <RCBMBundleHelper/RCBMBundleHelper.h>
 
 @interface RCBMViewController ()
 
@@ -17,7 +18,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
 	// Do any additional setup after loading the view, typically from a nib.
+    UIImage * image = [UIImage imageNamed:@"icon_next" formRCBMPod:@"RCBMBundleHelper"];
+    UIImageView *imgview = [[UIImageView alloc] initWithImage:image];
+    imgview.frame = CGRectMake(30, 64, 24, 42);
+    [self.view addSubview:imgview];
 }
 
 - (void)didReceiveMemoryWarning

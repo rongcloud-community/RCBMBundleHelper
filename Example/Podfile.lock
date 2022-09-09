@@ -1,0 +1,16 @@
+PODS:
+  - RCBMBundleHelper (1.0.0)
+
+DEPENDENCIES:
+  - RCBMBundleHelper (from `../`)
+
+EXTERNAL SOURCES:
+  RCBMBundleHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RCBMBundleHelper: d4266e146a20fe4f7ab9d96b80ff597bfc580c7b
+
+PODFILE CHECKSUM: 39a1fe14b0050b1d6021d0f8da1ab2e9402477c6
+
+COCOAPODS: 1.11.3

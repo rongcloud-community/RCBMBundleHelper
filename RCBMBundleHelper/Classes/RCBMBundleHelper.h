@@ -1,26 +1,15 @@
-# RCBMBundleHelper
+//
+//  RCBMBundleHelper.h
+//  RCBMBundleHelper
+//
+//  Created by dev on 2022/9/9.
+//
 
-[![CI Status](https://img.shields.io/travis/gongjiahao/RCBMBundleHelper.svg?style=flat)](https://travis-ci.org/gongjiahao/RCBMBundleHelper)
-[![Version](https://img.shields.io/cocoapods/v/RCBMBundleHelper.svg?style=flat)](https://cocoapods.org/pods/RCBMBundleHelper)
-[![License](https://img.shields.io/cocoapods/l/RCBMBundleHelper.svg?style=flat)](https://cocoapods.org/pods/RCBMBundleHelper)
-[![Platform](https://img.shields.io/cocoapods/p/RCBMBundleHelper.svg?style=flat)](https://cocoapods.org/pods/RCBMBundleHelper)
+#import <Foundation/Foundation.h>
 
-## Example
+NS_ASSUME_NONNULL_BEGIN
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-RCBMBundleHelper is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'RCBMBundleHelper'
-```
-## HowToUse
-```Objective-C
+@interface RCBMBundleHelper : NSObject
 /*
  * 获取静态pod的bundle路径.注意podName一般情况与bundle名一致,不一致,就传是在resource_bundles里面的名字
  * */
@@ -48,11 +37,13 @@ pod 'RCBMBundleHelper'
 
 #define RCBMBundleLocalizedNamed(keystr,commentstr,podstr) [RCBMBundleHelper localizedString:keystr comment:commentstr inPod:podstr]
 #define RCBMBundleLocalizedTableNamed(keystr,commentstr,tablestr,podstr) [RCBMBundleHelper localizedString:keystr comment:commentstr fromTable:tablestr inPod:podstr]
-```
-## Author
 
-arongshine, ashinecitic@gmail.com
+@end
 
-## License
+@import UIKit;
+@interface UIImage (RCBMPodBundle)
++ (UIImage *)imageNamed:(NSString *)name formRCBMPod:(NSString *)pod;
 
-RCBMBundleHelper is available under the MIT license. See the LICENSE file for more info.
+@end
+
+NS_ASSUME_NONNULL_END

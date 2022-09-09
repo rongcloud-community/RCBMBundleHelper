@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+@import UIKit;
 NS_ASSUME_NONNULL_BEGIN
 
 @interface RCBMBundleHelper : NSObject
@@ -40,7 +40,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-@import UIKit;
 @interface UIImage (RCBMPodBundle)
 + (UIImage *)imageNamed:(NSString *)name formRCBMPod:(NSString *)pod;
 

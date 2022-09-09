@@ -53,6 +53,10 @@ pod 'RCBMBundleHelper'
 
 arongshine, ashinecitic@gmail.com
 
+## Carthage support
+* create framwork project
+`carthage build --no-skip-current --use-xcframeworks`
+
 ## License
 
 RCBMBundleHelper is available under the MIT license. See the LICENSE file for more info.

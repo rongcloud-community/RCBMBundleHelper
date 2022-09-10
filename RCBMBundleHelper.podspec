@@ -57,9 +57,9 @@ RCBM Pod资源文件Bundle统一读取
     s.public_header_files = 'RCBMBundleHelper/Classes/**/*.h'
   else
     puts '-------------------------------------------------------------------'
-    puts "#{s.name}: FW here binary now " 
+    puts "#{s.name}: FW here binary now : #{s.source}" 
     puts '-------------------------------------------------------------------'
-    s.ios.vendored_frameworks = 'RCBMBundleHelper.xcframework'
+    s.ios.vendored_frameworks = '*/RCBMBundleHelper.xcframework'
   end
   
   

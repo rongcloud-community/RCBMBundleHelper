@@ -62,7 +62,7 @@ RCBM Pod资源文件Bundle统一读取
     s.ios.vendored_frameworks = 'RCBMBundleHelper/RCBMBundleHelper.xcframework'
   end
   
-  
+  s.preserve_paths = "#{s.name}/#{s.name}.xcframework","#{s.name}/Classes/**/*"
 #   s.resource_bundles = {
 #     'RCBMBundleHelper' => ['RCBMBundleHelper/Assets/*']
 #   }

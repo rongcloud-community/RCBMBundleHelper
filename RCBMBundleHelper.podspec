@@ -61,7 +61,7 @@ RCBM Pod资源文件Bundle统一读取
     puts '-------------------------------------------------------------------'
     puts "#{s.name}: FW here binary now : #{s.source}" 
     puts '-------------------------------------------------------------------'
-    s.ios.vendored_frameworks = 'RCBMBundleHelper/RCBMBundleHelper.xcframework'
+    s.vendored_frameworks = '*/RCBMBundleHelper.xcframework'
   end
   
 # s.preserve_paths = "#{s.name}/#{s.name}.xcframework","#{s.name}/Classes/**/*"

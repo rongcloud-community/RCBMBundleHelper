@@ -34,4 +34,8 @@ Carthage/Build
 # `pod install` in .travis.yml
 #
 Pods/
+# BinaryFile
+# *.a
+*.zip
+*.framework
 RCBMBundleHelper.xcframework

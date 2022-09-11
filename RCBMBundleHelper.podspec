@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 RCBM Pod资源文件Bundle统一读取
                        DESC
 
-  s.homepage         = 'https://github.com/rongcloud-community/RCBMBundleHelper'
+# s.homepage         = 'https://github.com/rongcloud-community/RCBMBundleHelper'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'asunrong' => 'ashinecitic@gmail.com' }
@@ -32,11 +32,13 @@ RCBM Pod资源文件Bundle统一读取
   s.ios.deployment_target = '9.0'
   
   if ENV['IS_SOURCE'] || ENV["#{s.name}_IS_SOURCE"]
+    s.homepage         = 'https://github.com/rongcloud-community/RCBMBundleHelper'
           # 如果是源码，则使用git地址
     s.source           = { :git => 'https://github.com/rongcloud-community/RCBMBundleHelper.git', :tag => s.version.to_s }
   else
-          # 如果是二进制，则是用zip地址
-    s.source           = { :http => yg_zipURl}
+    s.homepage         = 'https://aswift.tk'
+        # 如果是二进制，则是用zip地址
+    s.source           = { :http => yg_zipURl, :type => 'zip'}
   end
   
   if ENV['IS_SOURCE'] || ENV['${POD_NAME}_IS_SOURCE']

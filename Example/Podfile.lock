@@ -1,5 +1,5 @@
 PODS:
-  - RCBMBundleHelper (1.0.0)
+  - RCBMBundleHelper (1.0.1)
 
 DEPENDENCIES:
   - RCBMBundleHelper (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RCBMBundleHelper: d4266e146a20fe4f7ab9d96b80ff597bfc580c7b
+  RCBMBundleHelper: 44c63653cef932654e456609580b96be40105144
 
 PODFILE CHECKSUM: 39a1fe14b0050b1d6021d0f8da1ab2e9402477c6
 

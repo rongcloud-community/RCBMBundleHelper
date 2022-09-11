@@ -28,7 +28,8 @@ RCBM Pod资源文件Bundle统一读取
 # s.source           = { :git => 'https://github.com/rongcloud-community/RCBMBundleHelper.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   # 根据静态资源服务替换填写<your path>/
-  yg_zipURl="https://aswift.tk/RCBMBundleHelper/v#{s.version.to_s}/RCBMBundleHelper.zip"
+  yg_zipURl="https://aswift.tk/#{s.name}/v#{s.version.to_s}/#{s.name}-#{s.version.to_s}.zip"
+  
   s.ios.deployment_target = '9.0'
   
   if ENV['IS_SOURCE'] || ENV["#{s.name}_IS_SOURCE"]

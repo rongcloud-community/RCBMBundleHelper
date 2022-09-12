@@ -5,64 +5,62 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="00: git_pull" time="15.712519">
+      <testcase classname="fastlane.lanes" name="00: git_pull" time="8.617197">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="01: ensure_git_branch" time="0.033243">
+      <testcase classname="fastlane.lanes" name="01: ensure_git_branch" time="0.033627">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="02: version_bump_podspec" time="0.001532">
+      <testcase classname="fastlane.lanes" name="02: version_bump_podspec" time="0.002116">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="03: git_add" time="0.027962">
+      <testcase classname="fastlane.lanes" name="03: git_add" time="0.027057">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="04: git_commit" time="0.035938">
+      <testcase classname="fastlane.lanes" name="04: git_commit" time="0.035466">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="05: push_to_git_remote" time="7.983799">
+      <testcase classname="fastlane.lanes" name="05: push_to_git_remote" time="4.269213">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="06: git_tag_exists" time="0.046054">
+      <testcase classname="fastlane.lanes" name="06: git_tag_exists" time="0.038436">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="07: remove_git_tag" time="5.719593">
+      <testcase classname="fastlane.lanes" name="07: remove_git_tag" time="4.181474">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="08: add_git_tag" time="0.064722">
+      <testcase classname="fastlane.lanes" name="08: add_git_tag" time="0.053701">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="09: push_git_tags" time="4.271175">
+      <testcase classname="fastlane.lanes" name="09: push_git_tags" time="4.250432">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="10: pod_lib_lint" time="2.359711">
+      <testcase classname="fastlane.lanes" name="10: pod_lib_lint" time="2.837021">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="11: pod_push" time="5.600941">
-        
-          <failure message="/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.209.1/fastlane/lib/fastlane/actions/actions_helper.rb:67:in `execute_action&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.209.1/fastlane/lib/fastlane/runner.rb:255:in `block in execute_action&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.209.1/fastlane/lib/fastlane/runner.rb:229:in `chdir&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.209.1/fastlane/lib/fastlane/runner.rb:229:in `execute_action&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.209.1/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.209.1/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing&apos;&#10;Fastfile:40:in `block in parsing_binding&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.209.1/fastlane/lib/fastlane/lane.rb:33:in `call&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.209.1/fastlane/lib/fastlane/runner.rb:49:in `block in execute&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.209.1/fastlane/lib/fastlane/runner.rb:45:in `chdir&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.209.1/fastlane/lib/fastlane/runner.rb:45:in `execute&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.209.1/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.209.1/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.209.1/fastlane/lib/fastlane/commands_generator.rb:110:in `block (2 levels) in run&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/commander-4.6.0/lib/commander/command.rb:187:in `call&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/commander-4.6.0/lib/commander/command.rb:157:in `run&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/commander-4.6.0/lib/commander/runner.rb:444:in `run_active_command&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.209.1/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:124:in `run!&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/commander-4.6.0/lib/commander/delegates.rb:18:in `run!&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.209.1/fastlane/lib/fastlane/commands_generator.rb:354:in `run&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.209.1/fastlane/lib/fastlane/commands_generator.rb:43:in `start&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.209.1/fastlane/lib/fastlane/cli_tools_distributor.rb:123:in `take_off&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/gems/fastlane-2.209.1/bin/fastlane:23:in `&lt;top (required)&gt;&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/bin/fastlane:25:in `load&apos;&#10;/usr/local/lib/ruby/gems/3.1.0/bin/fastlane:25:in `&lt;main&gt;&apos;&#10;&#10;Exit status of command &apos;pod trunk push &apos;RCBMBundleHelper.podspec&apos; --allow-warnings --skip-import-validation&apos; was 1 instead of 0.&#10;Updating spec repo `trunk`&#10;Validating podspec&#10;-------------------------------------------------------------------&#10;RCBMBundleHelper: FW here binary now : {:http=&gt;&quot;https://aswift.tk/RCBMBundleHelper/v1.0.1/RCBMBundleHelper.zip&quot;, :type=&gt;&quot;zip&quot;}&#10;-------------------------------------------------------------------&#10; -&gt; RCBMBundleHelper-------------------------------------------------------------------&#10;RCBMBundleHelper: FW here binary now : {:http=&gt;&quot;https://aswift.tk/RCBMBundleHelper/v1.0.1/RCBMBundleHelper.zip&quot;, :type=&gt;&quot;zip&quot;}&#10;-------------------------------------------------------------------&#10; -&gt; RCBMBundleHelper (1.0.1)&#10;    - ERROR | [iOS] file patterns: The `vendored_frameworks` pattern did not match any file.&#10;    - WARN  | [iOS] license: Unable to find a license file&#10;&#10;[!] The spec did not pass validation, due to 1 error.&#10;&#10;[!] Unable to read the license file `LICENSE` for the spec `RCBMBundleHelper (1.0.1)`&#10;&#10;[!] Unable to read the license file `LICENSE` for the spec `RCBMBundleHelper (1.0.1)`&#10;&#10;[!] Skipping compilation with `xcodebuild` because target contains no sources.&#10;" />
+      <testcase classname="fastlane.lanes" name="11: pod_push" time="18.289141">
         
       </testcase>
     

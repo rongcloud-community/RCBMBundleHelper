@@ -1,5 +1,6 @@
 desc 'Release new pod version'
 lane :release_pod do |options|
+  target_repo    = options[:repo]
   target_project = options[:project]
   target_version = options[:version]
   target_desc    = options[:desc]
@@ -33,15 +34,25 @@ lane :release_pod do |options|
   if git_tag_exists(tag: target_version)
       UI.message("Tag #{target_version} already exists, then, delete it! 💥")
       remove_git_tag(tag: target_version)
+      
   end
   add_git_tag(tag: target_version)
   push_git_tags
-  pod_lib_lint(allow_warnings: true,no_clean:true,skip_import_validation:true)
+  
+  pod_lib_lint(allow_warnings: true,no_clean:true,skip_import_validation:true,sources: ["https://asunrong@gitee.com/rcbm/RCBMSpecs.git", "https://github.com/CocoaPods/Specs"])
+  
+# 检查是否传了 repo 参数
+if target_repo
+  pod_push(path: spec_path,repo: target_repo, allow_warnings: true,skip_import_validation:true,sources: ["https://asunrong@gitee.com/rcbm/RCBMSpecs.git", "https://github.com/CocoaPods/Specs"])
+  UI.message("Release private lib #{target_project} new version #{target_version} to #{target_repo} Successfully! 🎉 ")
+else
   pod_push(path: spec_path, allow_warnings: true,skip_import_validation:true)
-
+  UI.message("Release lib #{target_project} new version #{target_version} to CocoaPods/Specs Successfully! 🎉 ")
+end
 # current_path = File.expand_path("..")
 # sh "cd #{current_path} && pod lib lint #{spec_path.to_s.chomp} --no-clean --allow-warnings  --skip-import-validation"
 # sh "cd #{current_path} && pod trunk push #{spec_path.to_s.chomp}  --allow-warnings  --skip-import-validation"
   
-  UI.message("Release lib #{target_project} new version #{target_version} to CocoaPods/Specs Successfully! 🎉 ")
+  ## 更新本地索引库
+  #pod_update_private_spec(repoName:target_repo)
 end

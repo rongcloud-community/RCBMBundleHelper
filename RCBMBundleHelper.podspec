@@ -21,23 +21,24 @@ Pod::Spec.new do |s|
 RCBM Pod资源文件Bundle统一读取
                        DESC
 
-# s.homepage         = 'https://github.com/rongcloud-community/RCBMBundleHelper'
+s.homepage         = 'https://github.com/rongcloud-community/RCBMBundleHelper'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'asunrong' => 'ashinecitic@gmail.com' }
 # s.source           = { :git => 'https://github.com/rongcloud-community/RCBMBundleHelper.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   # 根据静态资源服务替换填写<your path>/
-  yg_zipURl="https://aswift.tk/#{s.name}/v#{s.version.to_s}/#{s.name}-#{s.version.to_s}.zip"
+# yg_zipURl="https://aswift.tk/#{s.name}/v#{s.version.to_s}/#{s.name}-#{s.version.to_s}.zip"
+  yg_zipURl="https://downloads.rongcloud.cn/#{s.name}_v#{s.version.to_s.gsub('.','_')}.zip"
   
   s.ios.deployment_target = '9.0'
   
   if ENV['IS_SOURCE'] || ENV["#{s.name}_IS_SOURCE"]
-    s.homepage         = 'https://github.com/rongcloud-community/RCBMBundleHelper'
+#   s.homepage         = 'https://github.com/rongcloud-community/RCBMBundleHelper'
           # 如果是源码，则使用git地址
     s.source           = { :git => 'https://github.com/rongcloud-community/RCBMBundleHelper.git', :tag => s.version.to_s }
   else
-    s.homepage         = 'https://aswift.tk'
+#   s.homepage         = 'https://aswift.tk'
         # 如果是二进制，则是用zip地址
     s.source           = { :http => yg_zipURl, :type => 'zip'}
   end

@@ -43,7 +43,7 @@ lane :release_pod do |options|
   
 # 检查是否传了 repo 参数
 if target_repo
-  pod_push(path: spec_path,repo: target_repo, allow_warnings: true,skip_import_validation:true,sources: ["https://asunrong@gitee.com/rcbm/RCBMSpecs.git", "https://github.com/CocoaPods/Specs"])
+  pod_push(path: spec_path,repo: target_repo,use_json:true, allow_warnings: true,skip_import_validation:true,sources: ["https://asunrong@gitee.com/rcbm/RCBMSpecs.git", "https://github.com/CocoaPods/Specs"])
   UI.message("Release private lib #{target_project} new version #{target_version} to #{target_repo} Successfully! 🎉 ")
 else
   pod_push(path: spec_path, allow_warnings: true,skip_import_validation:true)
